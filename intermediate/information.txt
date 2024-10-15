@@ -1,0 +1,1 @@
+Intermediate files from mapper task will get created in this folder. 
