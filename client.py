@@ -26,7 +26,7 @@ def mapper(data):
                                     string.punctuation))
         with open("intermediate/"+filename, "a") as f:
             f.write("%s - 1\n" % word.lower())
-    return True
+    return "True"
 
 def reducer(data):
     """ Function get file from BUCKET ID = REDUCER TASK ID.
