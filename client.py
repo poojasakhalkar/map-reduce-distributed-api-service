@@ -68,7 +68,7 @@ def home():
     print("request processed successfully. ")
     return "200"
     
-# driver function 
+# worker function 
 if __name__ == '__main__': 
     """ Client Initaite connection with server. Update port Details to Server. 
         Server check port details and if not available, update client to change the port details. 
